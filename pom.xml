@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pe.edu.cibertec</groupId>
+  <artifactId>webapp</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  
+  <properties>
+  	<project.build.source.sourceEncoding>UTF</project.build.source.sourceEncoding>
+  	<maven.compiler.target>1.8</maven.compiler.target>
+  	<maven.compiler.souce>1.8</maven.compiler.souce>
+  	<struts2.version>2.5.20</struts2.version>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.struts</groupId>
+  		<artifactId>struts2-core</artifactId>
+  		<version>${struts2.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.struts</groupId>
+  		<artifactId>struts2-convention-plugin</artifactId>
+  		<version>${struts2.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.struts</groupId>
+  		<artifactId>struts2-json-plugin</artifactId>
+  		<version>${struts2.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.struts</groupId>
+  		<artifactId>struts2-tiles-plugin</artifactId>
+  		<version>${struts2.version}</version>
+  	</dependency>
+  </dependencies>
+</project>
